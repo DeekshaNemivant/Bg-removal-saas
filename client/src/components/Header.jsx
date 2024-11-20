@@ -14,7 +14,11 @@ const Header = () => {
                </span>from 
                <br className='max-md:hidden' /> images for free.
           </h1>
-         <p className='my-6 text-[15px] text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quia <br className='max-sm:hidden'/> quibusdam soluta amet libero ipsum earum repellat, ab voluptatum nulla!</p>
+         <p 
+          className='my-6 text-[15px] text-gray-500'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quia
+             <br className='max-sm:hidden'/> quibusdam soluta amet libero ipsum earum repellat, ab voluptatum nulla!
+             </p>
           <div>
              <input type="file" name='' id='upload1' hidden />
               <label className='inline-flex gap-3 px-8 py-3.5 rounded-full cursor-pointer bg-gradient-to-r from-violet-600 to-fuchsia-500 m-auto hover:scale-105 transition-all duration-700' htmlFor="upload1">
