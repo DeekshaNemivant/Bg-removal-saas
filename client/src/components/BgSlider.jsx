@@ -3,7 +3,8 @@ import { assets } from '../assets/assets';
 
 const BgSlider = () => {
 
-  const [sliderPosition, setSliderPosition] = useState(50);
+  const [sliderPosition, 
+    setSliderPosition] = useState(50);
 
   const handleSliderChange = (e) => {
     setSliderPosition(e.target.value)
@@ -43,4 +44,4 @@ const BgSlider = () => {
   )
 }
 
-export default BgSlider
+export default BgSlider;
