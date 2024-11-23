@@ -37,7 +37,10 @@ const BgSlider = () => {
            {/* Slider */}
            <input 
             className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full z-10 slider ' 
-            type="range" min={0} max={100} value={sliderPosition} onChange={handleSliderChange}
+            type="range"
+             min={0} max={100}
+              value={sliderPosition} 
+              onChange={handleSliderChange}
              />
         </div>
     </div>
