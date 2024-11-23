@@ -18,7 +18,8 @@ const BgSlider = () => {
          to-gray-400 bg-clip-text text-transparent'>
           Remove Background With High <br /> Quality and Accuracy
         </h1>
-        <div className='relative w-full max-w-3xl overflow-hidden m-auto rounded-xl '>
+        <div 
+        className='relative w-full max-w-3xl overflow-hidden m-auto rounded-xl '>
            {/* Background Image */}
            <img 
            src={assets.image_w_bg} 
