@@ -4,7 +4,7 @@ import cors from 'cors'
 
 
 // App Config
-const   PORT = process.env.PORT || 4000
+const  PORT = process.env.PORT || 4000
 const app = express();
 
 // Initialize Middleware
@@ -12,6 +12,6 @@ app.use(express.json());
 app.use(cors());
 
 // API routes
-app.get('/', (req,res)=> res.send("API Working"));
+app.get('/', (req,res)=> res.send("API Working"))
 
 app.listen(PORT, ()=> console.log("Server Running on port" +PORT));
