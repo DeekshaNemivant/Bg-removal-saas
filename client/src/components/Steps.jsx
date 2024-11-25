@@ -19,11 +19,15 @@ const Steps = () => {
                   </p>
               </div>
           </div>
-          <div className='flex items-start gap-4 bg-white border drop-shadow-md p-7 pb-10 rounded hover:scale-105 transition-all duration-500'>
+          <div 
+           className='flex items-start gap-4 bg-white border drop-shadow-md p-7 pb-10 rounded hover:scale-105 transition-all duration-500'>
              <img className='max-w-9' src={assets.remove_bg_icon} alt="" />
               <div>
                 <p className='text-xl font-medium'>Remove background</p>
-                <p className='text-sm text-neutral-500 mt-1 '>This is a demo, will repalce it later. <br />This is a demo..</p>
+                <p 
+                className='text-sm text-neutral-500 mt-1 '>
+                  This is a demo, will repalce it later. <br />This is a demo.
+                  .</p>
               </div>
           </div>
           <div className='flex items-start gap-4 bg-white border drop-shadow-md p-7 pb-10 rounded hover:scale-105 transition-all duration-500'>
