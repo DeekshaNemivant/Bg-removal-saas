@@ -9,7 +9,9 @@ const Result = () => {
         <div className='flex flex-col sm:grid grid-cols-2 gap-8'>
            {/* Left Side */}
            <div>
-            <p className='font-semibold text-gray-600 mb-2'>Original</p>
+            <p className='font-semibold text-gray-600 mb-2'>
+              Original
+              </p>
             <img className='rounded-md border' 
             src={assets.image_w_bg} alt="" 
             />
