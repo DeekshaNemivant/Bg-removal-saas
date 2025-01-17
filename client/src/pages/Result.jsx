@@ -10,7 +10,9 @@ const Result = () => {
            {/* Left Side */}
            <div>
             <p className='font-semibold text-gray-600 mb-2'>Original</p>
-            <img className='rounded-md border' src={assets.image_w_bg} alt="" />
+            <img className='rounded-md border' 
+            src={assets.image_w_bg} alt="" 
+            />
            </div>
              {/* Right Side */}
               <div className='flex flex-col'>
