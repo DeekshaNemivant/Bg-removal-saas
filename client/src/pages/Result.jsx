@@ -16,7 +16,9 @@ const Result = () => {
            </div>
              {/* Right Side */}
               <div className='flex flex-col'>
-                <p className='font-semibold text-gray-600 mb-2'>Background removal</p>
+                <p className='font-semibold text-gray-600 mb-2'>
+                  Background removal
+                  </p>
                  <div className='rounded-md border border-gray-300 h-full relative bg-layer overflow-hidden'>
                 {/* <img src={assets.image_wo_bg} alt="" /> */}
                   <div className='absolute right-1/2 bottom-1/2 transform translate-x-1/2 translate-y-1/2 '>
